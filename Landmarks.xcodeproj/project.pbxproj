@@ -30,6 +30,7 @@
 		FE0ADF1029F9F9D000F21072 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE0ADF0F29F9F9D000F21072 /* GoogleService-Info.plist */; };
 		FE2909EC29F8BDA300E477B1 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE2909EB29F8BDA300E477B1 /* Hike.swift */; };
 		FE4C217029F8A250001C842B /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC16ECB29F888ED00A0BAAE /* LandmarkDetail.swift */; };
+		FE5CF7132A23EC60002D2626 /* LandmarkFB.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE5CF7122A23EC60002D2626 /* LandmarkFB.swift */; };
 		FE9F403429F8187200C6ACDF /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9F403329F8187200C6ACDF /* LandmarksApp.swift */; };
 		FE9F403629F8187200C6ACDF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE9F403529F8187200C6ACDF /* ContentView.swift */; };
 		FE9F403829F8187300C6ACDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE9F403729F8187300C6ACDF /* Assets.xcassets */; };
@@ -107,6 +108,7 @@
 		FE0ADF0D29F9E7E500F21072 /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		FE0ADF0F29F9F9D000F21072 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FE2909EB29F8BDA300E477B1 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
+		FE5CF7122A23EC60002D2626 /* LandmarkFB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkFB.swift; sourceTree = "<group>"; };
 		FE9F403029F8187200C6ACDF /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE9F403329F8187200C6ACDF /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		FE9F403529F8187200C6ACDF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -196,6 +198,7 @@
 				FE0ADEEF29F8C1ED00F21072 /* HikeDetail.swift */,
 				FE0ADEF029F8C1ED00F21072 /* HikeView.swift */,
 				FE0ADF0329F9CB4D00F21072 /* HikeBadge.swift */,
+				FE5CF7122A23EC60002D2626 /* LandmarkFB.swift */,
 			);
 			path = Hikes;
 			sourceTree = "<group>";
@@ -626,6 +629,7 @@
 				FE9F409029F8369100C6ACDF /* ModelData.swift in Sources */,
 				FE0ADF0429F9CB4D00F21072 /* HikeBadge.swift in Sources */,
 				FEA90C5429F8AE18004EC0DF /* badge.swift in Sources */,
+				FE5CF7132A23EC60002D2626 /* LandmarkFB.swift in Sources */,
 				FE9F409829F87BE300C6ACDF /* LandmarksList.swift in Sources */,
 				FEC16ED029F889E200A0BAAE /* MapView.swift in Sources */,
 				FEC16ECE29F889A300A0BAAE /* CircleImage.swift in Sources */,
@@ -812,7 +816,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SmokeSpotApp.test;
+				PRODUCT_BUNDLE_IDENTIFIER = Landmarkapp.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
@@ -852,7 +856,7 @@
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.3;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SmokeSpotApp.test;
+				PRODUCT_BUNDLE_IDENTIFIER = Landmarkapp.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
