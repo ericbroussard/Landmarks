@@ -10,6 +10,7 @@ import SwiftUI
 struct CategoryHome: View {
     @EnvironmentObject var modelData: ModelData
     @State private var showingProfile = false
+    @State private var showingPost = false
     
     var body: some View {
         NavigationView{
@@ -37,6 +38,16 @@ struct CategoryHome: View {
                 .sheet(isPresented: $showingProfile) {
                     ProfileHost()
                         .environmentObject(modelData)
+                }
+                .toolbar {
+                    Button {
+                        showingPost.toggle()
+                    } label: {
+                        Label("User Profile", systemImage: "plus" )
+                    }
+                }
+                .sheet(isPresented: $showingPost) {
+                    PlacePosting(text: "", text2: "", text3: "")
                 }
         }
     }

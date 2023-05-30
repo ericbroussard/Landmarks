@@ -25,9 +25,6 @@ struct LandmarksApp: App {
     
     func startFireBase() {
         FirebaseApp.configure()
-        Task{
-            try? PlacesManager().makePlace(LandmarkFB(id: "69", name: "doghouse", park: "dogpark", state: "dogstate", description: "alldogsallowed", isFavorite: true, isFeatured: true, imageURL: "", category: "dogcategory", coordinates: GeoPoint(latitude: 39, longitude: 24)))
-        }
     }
     
     func signIn() async throws{
